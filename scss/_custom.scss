@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);
+/*font-family: 'Raleway', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700);
+/*font-family: 'Merriweather', serif;*/
+
+
+$color1:    #FF5042;
+$color2:    #F0F0F1;
+$color3:    #00CECB;
+$color4:    #4E7CE4;
+$color5:    #292B45;
+body{
+    background-color: $color2;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+    color: $color5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin-bottom: 0;
+
+	span.reg {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 400;
+	}
+	span.bold {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 700;
+	}
+	span.black {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 900;
+	}
+
+}
+p {
+    font-family: 'Merriweather', serif;
+}
+
+
+
+@include breakpoint(small only) {
+    .date {
+        margin-top: 20px;
+    }
+}
+
+.header {
+    margin: 20px 0;
+}
+.data-rows {
+	padding: 0 20px;
+}
+.data-rows:nth-child(2n+1) {
+    h1,h2,h3,h4,h5,h6 {
+        color: $color2;
+    }
+	background-color: $color5;
+    color: $color2;
+}
+.month {
+
+}
+.date {
+    h2 {
+        padding: 0;
+        margin: 0;
+        line-height: 1em;
+    }
+    padding: 20px;
+}
+.info {
+	padding: 20px;
+    h2 {
+        padding: 0;
+        margin: 0;
+        margin-bottom: .2em;
+        line-height: 1em;
+    }
+
+	h4 {
+		margin-bottom: 0;
+	}
+	p {
+		margin: 0;
+	}
+}
