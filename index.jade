@@ -13,21 +13,23 @@ html.no-js(lang='en')
   body
     .row
       .large-12.columns
-        h1 SpringMeadows.Events
-        
-        script(type='x-gridspree-template')
-            table
-                th Month
-                th Date
-                th Name
-                th Description
-                {{#rows}}
-                tr
-                    td {{Month}}
-                    td {{Date}}
-                    td {{Name}}
-                    td {{Description}}
-                {{/rows}}
+        h1
+            span.reg SpringMeadows
+            span.heavy .Events
+        .small-12
+            script(type='x-gridspree-template')
+                table.small-12
+                    th Month
+                    th Date
+                    th Name
+                    th Description
+                    {{#rows}}
+                    tr
+                        td {{Month}}
+                        td {{Date}}
+                        td {{Name}}
+                        td {{Description}}
+                    {{/rows}}
     .row
       .large-12.columns
         .callout.large

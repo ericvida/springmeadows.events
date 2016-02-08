@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);
+/*font-family: 'Raleway', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700);
+/*font-family: 'Merriweather', serif;*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+h1 span.reg, h2 span.reg, h3 span.reg, h4 span.reg, h5 span.reg, h6 span.reg {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+h1 span.bold, h2 span.bold, h3 span.bold, h4 span.bold, h5 span.bold, h6 span.bold {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+h1 span.black, h2 span.black, h3 span.black, h4 span.black, h5 span.black, h6 span.black {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
