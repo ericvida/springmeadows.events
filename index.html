@@ -10,25 +10,21 @@
   </head>
   <body>
     <div class="row">
-      <div class="small-12 columns">
-        <div class="small-12 header">
-          <h1 class="text-center"><span class="reg">SpringMeadows</span><span class="heavy">.Events</span></h1>
-        </div>
-        <div class="small-12">
-          <script type="x-gridspree-template">
-            <div class="small-12 column">{{#rows}}
-              <div class="row data-rows">
-                <div class="small-12 medium-5 column text-right date small-align-middle">
-                  <h2 class="align-middle"><span class="bold align-middle">{{Month}}</span></h2>
-                  <h2><span class="reg">{{Date}}</span></h2>
-                </div>
-                <div class="small-12 medium-5 column info align-middle"><span class="align-middle">
-                    <h2>{{Name}}</h2>
-                    <p>{{Description}}</p></span></div>
-              </div>{{/rows}}
+      <div class="small-12 header">
+        <h1 class="text-center"><span class="reg">SpringMeadows</span><span class="heavy">.Events</span></h1>
+      </div>
+      <div class="small-12">
+        <script type="x-gridspree-template">{{#rows}}
+          <div class="row data-rows">
+            <div class="small-12 medium-5 column text-right date small-align-middle">
+              <h2 class="align-middle"><span class="bold align-middle">{{Month}}</span></h2>
+              <h2><span class="reg">{{Date}}</span></h2>
             </div>
-          </script>
-        </div>
+            <div class="small-12 medium-5 column info align-middle"><span class="align-middle">
+                <h2>{{Name}}</h2>
+                <p>{{Description}}</p></span></div>
+          </div>{{/rows}}
+        </script>
       </div>
     </div>
     <script src="js/vendor/jquery.min.js"></script>

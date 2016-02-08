@@ -11,26 +11,25 @@ html.no-js(lang='en')
   
   body
     .row
-      .small-12.columns
         .small-12.header
             h1.text-center
                 span.reg SpringMeadows
                 span.heavy .Events
         .small-12
             script(type='x-gridspree-template')
-                .small-12.column
-                    {{#rows}}
-                    .row.data-rows
-                        .small-12.medium-5.column.text-right.date.small-align-middle
-                            h2.align-middle
-                                span.bold.align-middle {{Month}}
-                            h2
-                                span.reg {{Date}}
-                        .small-12.medium-5.column.info.align-middle
-                            span.align-middle
-                                h2 {{Name}}
-                                p {{Description}}
-                    {{/rows}}
+                
+                {{#rows}}
+                .row.data-rows
+                    .small-12.medium-5.column.text-right.date.small-align-middle
+                        h2.align-middle
+                            span.bold.align-middle {{Month}}
+                        h2
+                            span.reg {{Date}}
+                    .small-12.medium-5.column.info.align-middle
+                        span.align-middle
+                            h2 {{Name}}
+                            p {{Description}}
+                {{/rows}}
     script(src='js/vendor/jquery.min.js')
     script(src='js/vendor/what-input.min.js')
     script(src='js/foundation.min.js')
