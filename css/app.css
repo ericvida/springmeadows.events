@@ -3965,13 +3965,14 @@ p {
 
 @media screen and (max-width: 39.9375em) {
   .logo, .hero {
-    height: 500px;
+    height: 250px;
+    background-size: contain;
   }
 }
 
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .logo, .hero {
-    height: 550px;
+    height: 350px;
   }
 }
 

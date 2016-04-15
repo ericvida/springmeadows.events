@@ -104,10 +104,11 @@ p {
   height: 600px;
   position: relative;
   @include breakpoint(small only) {
-    height: 500px
+    height: 250px;
+    background-size: contain;
   }
   @include breakpoint(medium only) {
-    height:550px
+    height:350px
   }
 }
 .hero {
