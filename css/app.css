@@ -3965,18 +3965,22 @@ p {
 
 @media screen and (max-width: 39.9375em) {
   .logo, .hero {
-    height: 300px;
+    height: 500px;
   }
 }
 
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .logo, .hero {
-    height: 450px;
+    height: 550px;
   }
 }
 
 .hero {
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, transparent 20%, transparent 80%, white 100%), url(../img/summer-bg.jpg);
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, transparent 20%, transparent 80%, white 100%), url(../img/summer-bg.jpg);
+  background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, transparent 20%, transparent 80%, white 100%), url(../img/summer-bg.jpg);
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, transparent 20%, transparent 80%, white 100%), url(../img/summer-bg.jpg);
+  background-image: linear-gradient(top, rgba(255, 255, 255, 0) 0%, transparent 20%, transparent 80%, white 100%), url(../img/summer-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

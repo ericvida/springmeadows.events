@@ -104,14 +104,42 @@ p {
   height: 600px;
   position: relative;
   @include breakpoint(small only) {
-    height: 300px
+    height: 500px
   }
   @include breakpoint(medium only) {
-    height:450px
+    height:550px
   }
 }
 .hero {
   background-image: -webkit-linear-gradient(top,
+        rgba(255,255,255,0) 0%,
+        rgba(0,0,0,0) 20%,
+        rgba(0,0,0,0) 80%,
+        rgba(255,255,255, 1) 100%
+      ),
+      url(../img/summer-bg.jpg);
+  background-image: -moz-linear-gradient(top,
+        rgba(255,255,255,0) 0%,
+        rgba(0,0,0,0) 20%,
+        rgba(0,0,0,0) 80%,
+        rgba(255,255,255, 1) 100%
+      ),
+      url(../img/summer-bg.jpg);
+  background-image: -ms-linear-gradient(top,
+        rgba(255,255,255,0) 0%,
+        rgba(0,0,0,0) 20%,
+        rgba(0,0,0,0) 80%,
+        rgba(255,255,255, 1) 100%
+      ),
+      url(../img/summer-bg.jpg);
+  background-image: -o-linear-gradient(top,
+        rgba(255,255,255,0) 0%,
+        rgba(0,0,0,0) 20%,
+        rgba(0,0,0,0) 80%,
+        rgba(255,255,255, 1) 100%
+      ),
+      url(../img/summer-bg.jpg);
+  background-image: linear-gradient(top,
         rgba(255,255,255,0) 0%,
         rgba(0,0,0,0) 20%,
         rgba(0,0,0,0) 80%,
