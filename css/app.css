@@ -3977,11 +3977,7 @@ p {
 }
 
 .hero {
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, transparent 20%, transparent 70%, white 100%), url(../img/summer-bg-fade.png);
-  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, transparent 20%, transparent 70%, white 100%), url(../img/summer-bg-fade.png);
-  background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, transparent 20%, transparent 70%, white 100%), url(../img/summer-bg-fade.png);
-  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, transparent 20%, transparent 70%, white 100%), url(../img/summer-bg-fade.png);
-  background-image: linear-gradient(top, rgba(255, 255, 255, 0) 0%, transparent 20%, transparent 70%, white 100%), url(../img/summer-bg-fade.png);
+  background-image: url(../img/summer-bg-fade.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
