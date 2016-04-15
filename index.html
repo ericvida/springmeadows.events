@@ -9,10 +9,10 @@
     <script src="https://gridspree.io/ss/DtrKn7M5q4SodCCLg8b3cM.js"></script>
   </head>
   <body>
-    <div class="row">
-      <div class="small-12 header">
-        <h1 class="text-center"><span class="reg">SpringMeadows</span><span class="heavy">.Events</span></h1>
-      </div>
+    <section class="hero">
+      <div class="logo"><img src="img/summer-events.png" class="absolute-center small-10 medium-8 large-4"></div>
+    </section>
+    <section class="row events">
       <div class="small-12">
         <script type="x-gridspree-template">{{#rows}}
           <div class="row data-rows">
@@ -22,11 +22,11 @@
             </div>
             <div class="small-12 medium-5 column info align-middle"><span class="align-middle">
                 <h2>{{Name}}</h2>
-                <p>{{Description}}</p></span></div>
+                <div style="overflow:visible;" class="small-12">{{Description}}</div></span></div>
           </div>{{/rows}}
         </script>
       </div>
-    </div>
+    </section>
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
