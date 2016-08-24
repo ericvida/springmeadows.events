@@ -8,7 +8,7 @@ $color1:    #FF5042;
 $color2:    white;
 $color3:    #00CECB;
 $color4:    #4E7CE4;
-$color5:    #9434df;
+$color5:    #282828;
 body{
     background-color: $color2;
 }
@@ -113,9 +113,9 @@ p {
 }
 .hero {
   background-image:
-      url(../img/summer-bg-fade.png);
+      url(../img/bg.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
   background-repeat: no-repeat;
 }
 

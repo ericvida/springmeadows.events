@@ -3873,7 +3873,7 @@ section.events {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  color: #9434df;
+  color: #282828;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -3920,7 +3920,7 @@ p {
 }
 
 .data-rows:nth-child(2n+1) {
-  background-color: #9434df;
+  background-color: #282828;
   color: white;
 }
 
@@ -3977,9 +3977,9 @@ p {
 }
 
 .hero {
-  background-image: url(../img/summer-bg-fade.png);
+  background-image: url(../img/bg.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
   background-repeat: no-repeat;
 }
 
