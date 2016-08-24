@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Meadows Church | Events</title>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="https://gridspree.io/ss/DtrKn7M5q4SodCCLg8b3cM.js"></script>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="logo"><img src="img/summer-events.png" class="absolute-center small-8 medium-6 large-4"></div>
+    </section>
+    <section class="events">
+      <div class="small-12">
+        <script type="x-gridspree-template">{{#rows}}
+          <div class="row data-rows">
+            <div class="small-12 medium-5 column text-right date small-align-middle">
+              <h2 class="align-middle"><span class="bold align-middle">{{Month}}</span></h2>
+              <h2><span class="reg">{{Date}}</span></h2>
+            </div>
+            <div class="small-12 medium-5 column info align-middle"><span class="align-middle">
+                <h2>{{Name}}</h2>
+                <div style="overflow:visible;" class="small-12">{{Description}}</div></span></div>
+          </div>{{/rows}}
+        </script>
+      </div>
+    </section>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
